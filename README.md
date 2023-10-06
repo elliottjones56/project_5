@@ -3,17 +3,18 @@
 # **By Brandon Amarasingam, Elliot Jones, and Lorena Robles**
 
 > ## PROBLEM STATEMENT
-> ### What are the similarties between the United States incarceration rates and Latin American countries under civil unrest/autoritarian movements as it relates to  age and gender? 
+> ### What are the similarities between the United States incarceration rates and Latin American countries under civil unrest/authoritarian movements as it relates to  age and gender? 
 ---
 > ## BACKGROUND INFORMATION
 >
-> ####  According to the **Freedom House Project**-America's oldest organization defending democracy in the world- we are living in the midst of a growing global trend of democratic decline and rising authoritarianism. " Fewer than a fith of the world's population now live in fully free countries[source]((https://www.google.com/search?channel=ftr&client=firefox-b-1-d&q=what+is+the+freedom+house+project%3F&dlnr=1&sei=qlwfZYGKNfHm0PEPrOKA2A4))."
+> ####  According to the **Freedom House Project**-America's oldest organization defending democracy in the world- we are living in the midst of a growing global trend of democratic decline and rising authoritarianism. " Fewer than a fifth of the world's population now live in fully free countries [(source)]((https://www.google.com/search?channel=ftr&client=firefox-b-1-d&q=what+is+the+freedom+house+project%3F&dlnr=1&sei=qlwfZYGKNfHm0PEPrOKA2A4))."
 >
-> #### This data science project seeks to draw paralles in the trends of incarceration, by age and gender, across Latin American coutries and the United States as they relate to the state of governance in said states. 
-
-
-Freedom House
-> ### [Executive Summary](Exe>cutive_Summary.md)
+> #### This data science project seeks to draw parallels in the trends of incarceration, by age and gender, across Brazil, El Salvador, Honduras, Mexico and the United States as they relate to the State of governance. Please, keep reading for an explanation on our choice of nations.  
+>
+> ### Political Rights & Civil Liberties by Country (Freedom House Project): 
+>![PR](Images\Political_Rights.png)
+>![CL](Images\Civil_Liberties.png)  
+> #### Please refer to our [Executive Summary](Exe>cutive_Summary.md) for the key insights and recommendations of our project. 
 ---
 > ### DATA
 > #### Description of the data 
@@ -22,7 +23,7 @@ Freedom House
 > |---|---|---|---|
 
 
-> ### Data Aquisition, Ingestion and Cleaning   
+> ### Data Acquisition, Ingestion and Cleaning   
 
 
 ---
