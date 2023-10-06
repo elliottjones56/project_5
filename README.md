@@ -33,14 +33,19 @@
 >
 ---
 > ## TABLE OF CONTENTS
-> ### &nbsp;&nbsp;A) [Executive Summary](Exe>cutive_Summary.md)
+> ### &nbsp;&nbsp;A) [Executive Summary](Executive_Summary.md)
 > ### &nbsp;&nbsp;B) [Coding_Notebooks](Coding_Notebooks)
 >   
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[Exploratory_Data_Analysis](Coding_Notebooks\Exploratory_Data_Analysis)   
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)[Modeling_Process](Coding_Notebooks\Modeling_Process)
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[Exploratory_Data_Analysis](Coding_Notebooks/Exploratory_Data_Analysis)   
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)[Modeling_Process](Coding_Notebooks/Modeling_Process)
 > ### &nbsp;&nbsp;C) [Datasets](Datasets)
 >    
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) [Original_Data](Datasets\Original_Data)
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) [Processed_Data](Datasets\Processed_Data)
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) [Original_Data](Datasets/Original_Data)
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) [Processed_Data](Datasets/Processed_Data)
 > ### &nbsp;&nbsp;D) [Images](Images)
 > ### &nbsp;&nbsp;E) [Presentation](Presentation)
+---
+> ### CONTACT INFORMATION
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Brandon Amarasingam]()
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Elliot Jones]()
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Lorena Robles]()
