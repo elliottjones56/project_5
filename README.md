@@ -12,8 +12,8 @@
 > #### This data science project seeks to draw parallels in the trends of incarceration, by age and gender, across Brazil, El Salvador, Honduras, Mexico and the United States as they relate to the State of governance. Please, keep reading for an explanation on our choice of nations.  
 >
 > ### Political Rights Score(0-40) & Civil Liberties Score(0-60) by Country as calculated by the Freedom House Project: 
->![PR](Images\Political_Rights.png)
->![CL](Images\Civil_Liberties.png)  
+>![PR](Images/Political_Rights.png)
+>![CL](Images/Civil_Liberties.png)  
 >
 > #### Please refer to our [Executive Summary](Executive_Summary.md) for the key insights and recommendations of our project. 
 ---
