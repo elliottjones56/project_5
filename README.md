@@ -25,8 +25,12 @@
 >
 >
 > ### Data Acquisition, Ingestion and Cleaning   
->
->
+> #### Data Sources:
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Economist Intelligence Unit: Democracy Index
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Freedom House Project 2021 Report
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;United Nations Office on Drugs and Crime Report 2021
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Missing Elliot's USA STATE DATA SOURCE... 
+> #### These datasets are open source and easily transformed into a comma separated values document with Unicode Transformation Format-8 encoding (which is often the default for use in Pandas/Python).
 ---
 > ## REQUIREMENTS FOR RUNNING THE CODE
 > #### ACDFG
@@ -46,6 +50,6 @@
 > ### &nbsp;&nbsp;E) [Presentation](Presentation)
 ---
 > ### CONTACT INFORMATION
-> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Brandon Amarasingam]()
-> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Elliot Jones]()
-> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Lorena Robles]()
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Brandon Amarasingam](https://www.linkedin.com/in/brandonamarasingam/)
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Elliot Jones](https://www.linkedin.com/in/elliott-jones-w/)
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Lorena Robles](https://www.linkedin.com/in/lroblesm/)

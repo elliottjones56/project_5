@@ -20,3 +20,5 @@
 5) [Laboratories of Democratic Backsliding](file:///C:/Users/Alex_Compu/Downloads/laboratories-of-democratic-backsliding.pdf)
 
 6) [United Nations Office on Drugs and Crime Report 2021](file:///C:/Users/Alex_Compu/ML/Projects/project_5/Research/DataMatters_prison.pdf)
+
+7) [The Economist Intelligence Unit: Democracy Index Report 2022](https://www.eiu.com/n/campaigns/democracy-index-2022/)
