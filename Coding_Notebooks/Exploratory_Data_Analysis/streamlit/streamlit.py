@@ -1,6 +1,5 @@
 from operator import mod
 import streamlit as st
-import matplotlib as plt
 import pickle 
 from pathlib import Path
 
