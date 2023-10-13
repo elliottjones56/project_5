@@ -10,7 +10,7 @@ def show_model():
     figure.show()
 
 def show_model1():
-    with open('/Coding_Notebooks/Exploratory_Data_Analysis/streamlit/fig1.pkl', 'rb') as pickle_in:
+    with open('/../../../Coding_Notebooks/Exploratory_Data_Analysis/streamlit/fig1.pkl', 'rb') as pickle_in:
         figure1 = pickle.load(pickle_in)
     figure1.show()
 
