@@ -1,7 +1,6 @@
 from operator import mod
 import streamlit as st
 import pickle 
-import matplotlib.pyplot as plt
 
 st.title('democracy index')
 
