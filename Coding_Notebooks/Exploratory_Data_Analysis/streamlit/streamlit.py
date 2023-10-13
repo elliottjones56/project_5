@@ -1,7 +1,9 @@
 from operator import mod
+import matplotlib.pylot as plt
 import streamlit as st
 import pickle 
 from pathlib import Path
+
 
 pkl_path = Path(__file__).parents[1] / 'streamlit/fig.pkl'
 
