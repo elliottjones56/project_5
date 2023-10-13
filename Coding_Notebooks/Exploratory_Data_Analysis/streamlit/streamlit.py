@@ -1,11 +1,14 @@
 from operator import mod
 import streamlit as st
 import pickle 
+from pathlib import Path
+
+pkl_path = Path(__file__).parents[1] / 'streamlit/fig.pkl'
 
 st.title('democracy index')
 
 def show_model():
-    with open('./fig.pkl', 'rb') as pickle_in:
+    with open(pkl_path, 'rb') as pickle_in:
         figure = pickle.load(pickle_in)
     figure.show()
 
