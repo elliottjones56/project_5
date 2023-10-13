@@ -12,7 +12,7 @@ def show_model():
 
     with open(pkl_path, 'rb') as pickle_in:
         figure = pickle.load(pickle_in)
-    figure.show()
+    st.pyplot(figure)
 
 def show_model1():
     with open('/project_5_group_work/Coding_Notebooks/Exploratory_Data_Analysis/streamlit/fig1.pkl', 'rb') as pickle_in:
