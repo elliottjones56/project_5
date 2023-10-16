@@ -37,11 +37,11 @@
 >
 > ### Data Acquisition, Ingestion and Cleaning   
 > #### Data Sources:
-> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[The Economist Intelligence Unit: Democracy Index]('../../Datasets/Original_Data/Economist_Intelligence_Unit_Democracy_Index_2022_0-10.csv')
-> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)[The Freedom House Project 2021 Report]('../../Datasets/Original_Data/Freedom_House_Project_Aggregate_Scores_2003-2023.csv')
-> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3)[United Nations Office on Drugs and Crime Report 2021]('../../Datasets/Original_Data/UN_Office_Drugs_Crime_2021_Full_Dataset.csv')
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[The Economist Intelligence Unit: Democracy Index]('/elliottjones56/project_5_group_work/blob/main/Datasets/Original_Data/Economist_Intelligence_Unit_Democracy_Index_2022_0-10.csv')
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)[The Freedom House Project 2021 Report]('/elliottjones56/project_5_group_work/blob/main/Datasets/Original_Data/Freedom_House_Project_Aggregate_Scores_2003-2023.csv')
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3)[United Nations Office on Drugs and Crime Report 2021]('/elliottjones56/project_5_group_work/blob/main/Datasets/Original_Data/UN_Office_Drugs_Crime_2021_Full_Dataset.csv')
 > #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4)[Elliot's USA STATE DATA SOURCE...]('../../Datasets/Original_Data/') 
-> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5)[The Quality of Government Institute: Organization for Economic Cooperation & Development(OECD) Dataset]('../../Datasets/Original_Data/Quality_Of_Govt_Inst_OECD_2023.csv')
+> #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5)[The Quality of Government Institute: Organization for Economic Cooperation & Development(OECD) Dataset]('/elliottjones56/project_5_group_work/blob/main/Datasets/Original_Data/Quality_Of_Govt_Inst_OECD_2023.csv')
 > #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4)[Brandon's Gov Classification 1](/elliottjones56/project_5_group_work/blob/main/Datasets/Original_Data/Economist_Intelligence_Unit_Democracy_Index_2022_0-10.csv)
 >
 > #### These datasets are open source and easily transformed into a Comma Separated Values document with Unicode Transformation Format-8 encoding (which is often the default for use in Pandas/Python). Indicators such as democracy index, incarceration rate, and civil liberties were merged for the modeling process using the country/state name as well as the year. The Freedom House Project and the UN Office on Drugs & Crime dataset had no missing values. The Quality of Government Institute dataset missing values were imputed using skleanr's [KNNImputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html) which required standard scaling all the features. 
