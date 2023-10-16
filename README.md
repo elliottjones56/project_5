@@ -30,7 +30,7 @@
 >![CL]('../../Images/Civil_Liberties.png')
 >
 >
-> #### Please refer to our [Executive Summary](Executive_Summary.md) for the key insights and recommendations of our project. 
+> #### Please refer to our [Executive Summary](/elliottjones56/project_5_group_work/blob/main/Executive_Summary.md) for the key insights and recommendations of our project. 
 ---
 > ### DATA
 > #### This project models the Democracy Index developed by the Economics Intelligence Unit utilizing incarceration data from the United Nations Office on Drugs and Crime, as well governance and economic indicators from the the Quality of Government Institute and the Freedom House Project.    
