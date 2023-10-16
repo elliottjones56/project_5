@@ -77,17 +77,17 @@
 ---
 > ## TABLE OF CONTENTS
 > ### &nbsp;&nbsp;A) [Executive Summary](/elliottjones56/project_5_group_work/blob/main/Executive_Summary.md)
-> ### &nbsp;&nbsp;B) [Coding_Notebooks](Coding_Notebooks)
+> ### &nbsp;&nbsp;B) [Coding_Notebooks](/elliottjones56/project_5_group_work/tree/main/Coding_Notebooks)
 >   
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[Exploratory_Data_Analysis](Coding_Notebooks/Exploratory_Data_Analysis)   
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)[Modeling_Process](Coding_Notebooks/Modeling_Process)
-> ### &nbsp;&nbsp;C) [Datasets](Datasets)
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[Exploratory_Data_Analysis](/elliottjones56/project_5_group_work/tree/main/Coding_Notebooks/Exploratory_Data_Analysis)   
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)[Modeling_Process](/elliottjones56/project_5_group_work/tree/main/Coding_Notebooks/Modeling_Process)
+> ### &nbsp;&nbsp;C) [Datasets](/elliottjones56/project_5_group_work/tree/main/Datasets)
 >    
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) [Original_Data](Datasets/Original_Data)
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) [Processed_Data](Datasets/Processed_Data)
-> ### &nbsp;&nbsp;D) [Images](Images)
-> ### &nbsp;&nbsp;E) [Research](Research)
-> ### &nbsp;&nbsp;F) [Presentation](Presentation)
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) [Original_Data](/elliottjones56/project_5_group_work/tree/main/Datasets/Original_Data)
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) [Processed_Data](/elliottjones56/project_5_group_work/tree/main/Datasets/Processed_Data)
+> ### &nbsp;&nbsp;D) [Images](/elliottjones56/project_5_group_work/tree/main/Images)
+> ### &nbsp;&nbsp;E) [Research](/elliottjones56/project_5_group_work/tree/main/Research)
+> ### &nbsp;&nbsp;F) [Presentation](/elliottjones56/project_5_group_work/tree/main/Presentation)
 ---
 > ### CONTACT INFORMATION
 > #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Brandon Amarasingam](https://www.linkedin.com/in/brandonamarasingam/)
