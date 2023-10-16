@@ -71,7 +71,7 @@
 > #### &ensp;&thinsp;- [Python 3.9 or above](https://www.python.org/downloads/)
 > #### &ensp;&thinsp;- The following libraries:
 > #### &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;- [NumPY](https://numpy.org/install/go)   - [Pandas](https://pandas.pydata.org/docs/getting_started/install.htmlgo)   - [Matplotlib.pyplot](https://matplotlib.org/stable/users/installing/index.html)
-> #### &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;- [Seaborn](https://seaborn.pydata.org/installing.html)   - [Plotly](https://plotly.com/python/getting-started/g)   - [Streamlit](https://docs.streamlit.io/library/get-started/installation)   - [ScikitLearn](https://scikit-learn.org/stable/install.html)
+> #### &ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;- [Seaborn](https://seaborn.pydata.org/installing.html)   - [Plotly](https://plotly.com/python/getting-started/g)   - [Streamlit](https://docs.streamlit.io/library/get-started/installation)   - [ScikitLearn](https://scikit-learn.org/stable/install.html)   - [ImbalancedLearn](https://imbalanced-learn.org/stable/index.html)
 > #### &ensp;&thinsp;- [Link for running Streamlit App]()
 >
 ---
