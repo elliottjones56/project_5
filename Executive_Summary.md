@@ -1,49 +1,66 @@
 # **EXECUTIVE SUMMARY**
-"Most Latin American countries share a history of impunity courtesy of their colonial past[(source)]('../../Research/ASSISTED_FREEDOM_CARCERAL_TRANSMUTATION.pdf')." Since gaining their Independence in the 19th Century these countries remain locked in a struggle towards full democratic rule that is punctuated with cycles of revolutionary action and repressive military rule. 
+This project has sought to analyze the similarities between United States Incarceration Rates and those of Latin American countries:
+         -Brazil
+         -El Salvador
+         -Honduras
+         -Mexico
 
-Notably, United States political and economic interventions have, more often than not, tipped the scales in favor of repressive action. The United States efforts to combat communism during the Cold War fueled the growth of "authoritarianism, massive human rights violations and eventually transitions to low-intesity democracies...(and) unbalanced civil-military relations[(source)](https://www.americasquarterly.org/article/latin-america-doesnt-want-a-new-cold-war/)."
+In addition this project has compared classification, and regression models which attempt to predict a country's/state's democracy index based on incarceration rates alone; and then compare those results to a model utilizing various political and economic indicators, in addition to incarceration rate, to predict the democracy index. 
 
-•	Democracy vs. Authoritarianism 
+## Data Science & Machine Learning Process
 
-o	In statistics, latent variables are variables that can only be inferred indirectly through a mathematical model from tother observable variables that can be directly observed or measured. 
+###  Data Acquisition an Exploratory Data Analysis
+We have chosen to limit our Exploratory data analysis to years starting in 2010, as this reflects the state of the global economy post the 2008 global economic crisis as well as the changes brought upon by the pandemic. 
 
-o	Democracy Index:Compiled by UK based Economist group attempts to measure the state of democracy  based on political institutions and freedoms. 
-
-•	9.01-10.00/ 8.01-9.00 Full Democracies
-
-•	7.01–8.00/6.01–7.00 Flawed Democracies
-
-•	5.01–6.00/4.01–5.00 Hybrid Regime 
-
-•	3.01–4.00/2.01–3.00/1.01–2.00 Authoritarian Regime
-
-An important insight of recent research has been the central role of the carceral state (whether the state represses it’s citizenry through authoritarian policing and mass incarceration) in shaping democratic performance [(source)]('../../Research/laboratories-of-democratic-backsliding.pdf'). 
-
-o	This includes looking at incarceration rates, criminal justice policies, carceral outcomes and civil liberties policies. 
-
-	Most notably for the U.S. was the measure of Felon disenfranchisement which had a -0.48 coefficient with regards to the final democracy index. 
-
-•	Coercive state authority, seen in extreme forms in authoritarian policing and mass incarceration, area also mostly administered with state-level authority. 
-
-2022 UN Incarceration Numbers:
-
-•	American Continent 379 average/100,000
-•	Steady climb Latin America as a whole 267 average/100,000
-•	Steady decrease US 577, average/100,000
-•	Share of prisoners unsentenced: 36%  Latin America, 25% North America
-•	World average 153 people  
-
-
-### Data Science & Machine Learning Process
-
-We have chosen to limit our EDA to years starting in 2010, as this reflects the state of the global economy post the 2008 global economic crisis as well as the changes brought upon by the pandemic. 
 Also, by not going too far in time, we avoid comparing between time periods which have very different data availability and potentially incomparable terms of civil and human rights. 
-Challenges to the project
 
-o	Prisons often remain closed not only to researchers or journalists but also to lawyers and human rights activists.
+Challenges to the data acquisition process: 
 
-o	Populations at large delegate to the darkest part of the state the power to discipline and punish with little external control.
+By nature, reports of incarceration rates for countries with high corruption levels should be considered rough estimates. 
 
+This is why we chose to utilize data from the United Nations as our main source for incarceration as they have a long history of addressing challenges with untrustworthy data sources[(source)]('../../Research/UNSQAF-2018.pdf')
+
+In addition, when modeling to predict democracy index, we have chosen to include data from independent organizations such as: 
+
+- [The Quality of Government Institute](https://www.gu.se/en/quality-government)
+
+- [The Freedom House Project](https://freedomhouse.org/)
+
+- [The Economist Intelligence Unit](https://www.eiu.com/n/)
+
+### Model Performance
+
+We first approached the problem with a classification approach: 
+
+The best classification model was a Support Vector Model, with a training R2 of
+ .317 and a testing R2 of . 345 
+ 
+The baseline classification distribution is as follows: 
+
+-Authoritarian Regime 0.32
+-Flawed Democracy 0.32
+-Hibrid Regime 0.22
+-Full Democracy 0.14
+
+Based on these results our team then decided to test a regression model next. 
+
+A simple decision tree model predicting democracy index using incarceration rates for 158 countries yielded a train accuracy score of 0.72 and a test accuracy score of .70. 
+
+This is the model accuracy we have chosen to compared to a regression model using 30+ political and economic indicators from the following sources: 
+
+- [Social Progress Imperative](https://www.socialprogress.org/)
+- [Varieties fo Democracy](https://v-dem.net/)
+- [United Nations Development Programme](https://www.undp.org/)
+- [World Economic Forum](https://www.weforum.org/about/world-economic-forum)
+- [Institute for Economics and Peace](https://www.economicsandpeace.org/)
+- [World Bank Group](https://www.worldbank.org/en/home)
+- [Amnesty International](https://www.amnestyusa.org/about-us/)
+
+This model was trained with data from 35 countries and has a training accuracy of .99 and a testing accuracy of .96
+
+Based on our results we believe that incarceration rate is a robust indicator of the state of governance. 
+
+## Correlation Insights form Random Forest Model 
 
 ### Correlations with Incarceration Rate:
 
